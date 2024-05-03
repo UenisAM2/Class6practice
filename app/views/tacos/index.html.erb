@@ -1,0 +1,17 @@
+<h1> This makes no sense! </h1>
+<p>Uenis' web page</p>
+
+<% 
+
+fillings = ["Carnitas", "Veggie", "Brozilian", "eggs"]
+
+ %>
+
+<p>We have <%= fillings.count%> tacos </p>
+
+<ul> My favorite tacos:
+  <% for taco in fillings %>
+    <li><%= taco%></li>
+  <% end%>
+
+</ul>
